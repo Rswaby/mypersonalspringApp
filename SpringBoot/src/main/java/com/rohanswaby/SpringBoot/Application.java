@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.HashMap;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.rohanswaby"})
 public class Application {
 	public static HashMap<Long,Student2> hmStudent;
 	public static void main(String[] args) {
